@@ -1,0 +1,44 @@
+.name {
+    font-size: 25px;
+    font-weight: 700;
+    color: #C7C7C7;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navRight {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    a {
+        color: #C7C7C7;
+    }
+}
+
+@media screen and (min-width: 320px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: -30px;
+    }
+
+    .navRight {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .navRight {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+}

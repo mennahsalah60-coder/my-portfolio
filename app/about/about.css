@@ -1,0 +1,12 @@
+body {
+    background-color: #0A0A0A;
+    color: aliceblue;
+}
+
+
+.countainer {
+    max-width: 1000px;
+    margin-inline: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,271 @@
+body {
+    background-color: #0A0A0A;
+    color: aliceblue;
+}
+*{
+    scroll-behavior: smooth;
+}
+.countainer {
+    max-width: 1000px;
+    margin-inline: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.meHere {
+    display: flex;
+    justify-content: space-between;
+
+
+    h1 {
+        font-size: 65px;
+        max-width: 50%;
+    }
+
+    h2 {
+        font-size: 65px;
+    }
+
+    p {
+        color: #C7C7C7;
+        max-width: 80%;
+    }
+
+    .discription {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contact {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        button {
+            transition: transform 0.1s ease;
+            background-color: #D3E97A;
+            color: #0A0A0A;
+            font-weight: 700;
+            font-size: 15px;
+            padding: 15px 40px;
+            border-radius: 30px;
+            cursor: pointer;
+        }
+
+        button:active {
+            transform: scale(0.95);
+        }
+
+        .svg {
+            transition: transform 0.1s ease;
+            background-color: #222222;
+            padding: 10px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+
+        svg:active {
+            transform: scale(0.95);
+        }
+    }
+
+
+    img {
+        border-radius: 50px;
+    }
+
+}
+
+.borderMe {
+    border-bottom: .1px solid gray;
+    margin-top: 80px;
+}
+
+#work {}
+
+#about {
+    .aboutBox {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: start;
+
+        h1{
+            font-size: 50px;
+            font-weight: 700;
+        }
+
+        h2{
+            font-size: 25px;
+            font-weight: 600;
+            
+        }
+
+        p{
+            color: #5f5e5e;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+
+        a{
+            cursor: pointer;
+            color: rgba(211, 233, 122, 1);
+            text-decoration: underline;
+        }
+    }
+
+}
+
+#contact {}
+
+@media screen and (min-width: 320px) {
+    .countainer {
+        max-width: 250px;
+        margin-inline: auto;
+
+    }
+
+    .meHere {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        h1 {
+            font-size: 30px;
+        }
+
+        h2 {
+            font-size: 30px;
+        }
+
+        p {
+            width: 100%;
+        }
+
+        .contact {
+
+            button {
+                font-size: 10px;
+                padding: 10px 16px;
+            }
+        }
+    }
+
+    #about{
+        .aboutBox{
+            display: grid;
+            grid-template-columns: 1fr;
+
+            h1{
+                font-size: 25px;
+            }
+
+            h2{
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 425px) {
+    .countainer {
+        max-width: 300px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .countainer {
+        max-width: 600px;
+    }
+
+    .meHere {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    
+    #about{
+        .aboutBox{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+
+            h1{
+                font-size: 30px;
+            }
+
+            h2{
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .countainer {
+        max-width: 900px;
+    }
+
+
+    .meHere {
+        h1 {
+            font-size: 50px;
+        }
+
+        h2 {
+            font-size: 50px;
+        }
+
+        p {
+            font-size: 15px;
+        }
+
+
+        .contact {
+
+            button {
+                font-size: 15px;
+                padding: 16px 20px;
+            }
+        }
+    }
+
+    
+    #about{
+        .aboutBox{
+
+            h1{
+                font-size: 40px;
+            }
+
+            h2{
+                font-size: 25px;
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 1440px) {
+    .countainer {
+        max-width: 990px;
+    }
+
+    .meHere {
+        h1 {
+            font-size: 70px;
+        }
+
+        h2 {
+            font-size: 70px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+    }
+}

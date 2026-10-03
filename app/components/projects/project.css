@@ -1,0 +1,167 @@
+.countainer {
+    max-width: 1000px;
+    margin-inline: auto;
+}
+
+.features {
+
+    h1 {
+        font-size: 50px;
+        font-weight: 700;
+    }
+
+    p {
+        color: #C7C7C7;
+        max-width: 50%;
+    }
+}
+
+.theFeature {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 50px;
+
+    .imgBox{
+        background-color: #6a6868;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    img {
+        max-width: 1500px !important;
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 30px;
+        margin-top: 50px;
+    }
+
+    p {
+        color: #adacac;
+        max-width: 100%;
+    }
+
+    .info {
+        h3 {
+            margin-top: 30px;
+        }
+
+        .when {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 50%;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid gray;
+        }
+    }
+
+    .links {
+        a {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 10px;
+            cursor: pointer;
+            color: #D3E97A;
+
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #D3E97A;
+        }
+    }
+}
+
+@media screen and (min-width: 320px) {
+    .countainer {
+        max-width: 250px;
+        margin-inline: auto;
+
+    }
+
+    .features{
+
+        h1{
+            font-size: 25px;
+            max-width: 100%;
+        }
+        p{
+            max-width: 100%;
+            margin-bottom: 20px;
+        }
+    }
+
+    .theFeature {
+        display: grid;
+        grid-template-columns: 1fr;
+
+        .imgBox{
+            margin-top: 20px;
+            margin-bottom: -50px;
+        }
+
+        img {
+            max-width: 100% !important;
+            margin-top: 10px;
+        }
+    }
+
+
+}
+
+
+@media screen and (min-width: 425px) {
+    .countainer{
+        max-width: 300px;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .countainer{
+        max-width: 600px;
+    }
+
+    .features{
+        .pone{
+            max-width: 50%;
+        }
+
+        h1{
+            font-size: 50px;
+        }
+    }
+
+    .theFeature {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        
+    .imgBox{
+        margin: 0;
+    }
+    img {
+        max-width: 100% !important;
+    }
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .countainer{
+        max-width: 900px;
+    }
+}
+
+
+@media screen and (min-width: 1440px) {
+    .countainer{
+        max-width: 990px;
+    }
+}
