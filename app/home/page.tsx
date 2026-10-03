@@ -75,7 +75,7 @@ export default function Home() {
       </section>
       <div className='borderMe'></div>
 
-      <section className='countainer' id='contact'>
+      <section id='contact'>
         <Contact />
         </section>
     </>

@@ -1,0 +1,243 @@
+.countainer {
+    max-width: 1000px;
+    margin-inline: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.contactDiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    h1 {
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    p {
+        color: #797979;
+        font-size: 20px;
+        margin-bottom: 20px;
+
+        a {
+            text-decoration: underline #d9ff3f;
+        }
+    }
+
+    .contact {
+        display: flex;
+        gap: 15px;
+
+    }
+}
+
+.contact-form {
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.form-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-group label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background-color: #252525;
+    color: #ffffff;
+    padding: 14px 16px;
+    font-family: inherit;
+    font-size: 14px;
+}
+
+.form-group input {
+    height: 42px;
+}
+
+.form-group textarea {
+    min-height: 115px;
+    resize: vertical;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: #ffffff;
+    opacity: 1;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: 1px solid #d9ff3f;
+}
+
+.submit-btn {
+    align-self: flex-start;
+    border: none;
+    background-color: #d9ff3f;
+    color: #111111;
+    padding: 14px 32px;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.submit-btn:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+}
+
+.toast {
+    position: fixed;
+    top: 25px;
+    right: 25px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 20px;
+    background-color: #252525;
+    color: white;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+    animation: toastShow 0.3s ease;
+}
+
+.toast-icon {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+.toast.success .toast-icon {
+    background-color: #d9ff3f;
+    color: #111;
+}
+
+.toast.error .toast-icon {
+    background-color: #ff6b6b;
+    color: white;
+}
+
+@keyframes toastShow {
+
+    from {
+        opacity: 0;
+        transform: translateX(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+}
+
+.submit-btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+@media (max-width: 768px) {
+
+    .toast {
+        top: 20px;
+        right: 15px;
+        left: 15px;
+        justify-content: center;
+        font-size: 13px;
+    }
+
+}
+
+
+@media screen and (min-width: 320px) {
+    .countainer {
+        max-width: 200px;
+        margin-inline: auto;
+
+    }
+
+    .contactDiv {
+        display: grid;
+        grid-template-columns: 1fr;
+
+        h1 {
+            font-size: 22px;
+        }
+
+        p {
+            font-size: 15px;
+        }
+
+        .contact {
+            margin-bottom: 20px;
+        }
+    }
+
+}
+
+
+@media screen and (min-width: 425px) {
+    .countainer {
+        max-width: 300px;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .countainer {
+        max-width: 600px;
+    }
+
+    .contactDiv {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .countainer {
+        max-width: 900px;
+    }
+
+    .contactDiv {
+        h1 {
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+    }
+}
+
+
+@media screen and (min-width: 1440px) {
+    .countainer {
+        max-width: 990px;
+    }
+}
