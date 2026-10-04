@@ -69,8 +69,6 @@ export default function Contact() {
 
     return (
         <>
-            {/* Toast Notification */}
-
             {toast && (
                 <div className={`toast ${toastType}`}>
                     <span className="toast-icon">
@@ -84,8 +82,6 @@ export default function Contact() {
             <section>
 
                 <div className="countainer contactDiv">
-
-                    {/* LEFT SIDE */}
 
                     <div>
 
@@ -115,8 +111,6 @@ export default function Contact() {
 
                     </div>
 
-
-                    {/* RIGHT SIDE */}
 
                     <div>
 
