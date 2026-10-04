@@ -5,7 +5,7 @@ export default function Navbar() {
     return (
         <>
             <section className='all'>
-                <section>
+                <section className='nav-sec'>
                     <div className='countainer'>
                         <nav>
                             <h1 className='name'>Menna Hamdy</h1>
