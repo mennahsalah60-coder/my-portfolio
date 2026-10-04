@@ -25,7 +25,7 @@ export default function Home() {
               <h2>MENNA HAMDY</h2>
 
               <p>
-                A Front-End Developer who loves turning ideas
+                A Junior Front-End Developer who loves turning ideas
                 into modern, responsive, and interactive websites.
               </p>
 

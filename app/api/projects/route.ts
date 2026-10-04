@@ -9,8 +9,8 @@ const projects = [
         info: 'PROJECT INFO',
         year: 2025,
         role: 'Front-end Developer',
-        liveDemo: 'http/github/demo',
-        github: 'gitHub',
+        liveDemo: 'https://my-portfolio-xi-lyart-ya8n17v3cf.vercel.app',
+        github: 'https://github.com/mennahsalah60-coder/Portfolio',
     },
 
     {
