@@ -10,7 +10,7 @@ export default function Navbar() {
                         <nav>
                             <h1 className='name'>Menna Hamdy</h1>
                             <div className='navRight'>
-                                <Link href="#work">Work</Link>
+                                <Link href="#work">Projects</Link>
                                 <Link href="#about">About</Link>
                                 <Link href="#contact">Contact</Link>
                             </div>

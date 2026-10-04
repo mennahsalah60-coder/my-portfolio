@@ -7,7 +7,7 @@ const projects = [
         title: 'My Portfolio',
         discription: 'A modern and responsive personal portfolio website designed to showcase my projects, skills, and experience as a Front-End Developer. Built with a clean and interactive interface, focusing on smooth navigation, responsive design, and a clear presentation of my work.',
         info: 'PROJECT INFO',
-        year: 2025,
+        year: 2026,
         role: 'Front-end Developer',
         liveDemo: 'https://my-portfolio-xi-lyart-ya8n17v3cf.vercel.app',
         github: 'https://github.com/mennahsalah60-coder/Portfolio',

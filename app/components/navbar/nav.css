@@ -4,16 +4,6 @@
     color: #C7C7C7;
 }
 
-.nav-sec {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-    background-color: #0a0a0a;;
-    padding-bottom: 40px;
-}
-
 nav {
     display: flex;
     justify-content: space-between;
