@@ -2,9 +2,11 @@ body {
     background-color: #0A0A0A;
     color: aliceblue;
 }
-*{
+
+* {
     scroll-behavior: smooth;
 }
+
 .countainer {
     max-width: 1000px;
     margin-inline: auto;
@@ -92,24 +94,24 @@ body {
         grid-template-columns: 1fr 1fr;
         align-items: start;
 
-        h1{
+        h1 {
             font-size: 50px;
             font-weight: 700;
         }
 
-        h2{
+        h2 {
             font-size: 25px;
             font-weight: 600;
-            
+
         }
 
-        p{
+        p {
             color: #5f5e5e;
             margin-top: 20px;
             margin-bottom: 30px;
         }
 
-        a{
+        a {
             cursor: pointer;
             color: rgba(211, 233, 122, 1);
             text-decoration: underline;
@@ -153,16 +155,16 @@ body {
         }
     }
 
-    #about{
-        .aboutBox{
+    #about {
+        .aboutBox {
             display: grid;
             grid-template-columns: 1fr;
 
-            h1{
+            h1 {
                 font-size: 25px;
             }
 
-            h2{
+            h2 {
                 font-size: 15px;
             }
         }
@@ -188,17 +190,17 @@ body {
         gap: 20px;
     }
 
-    
-    #about{
-        .aboutBox{
+
+    #about {
+        .aboutBox {
             display: grid;
             grid-template-columns: 1fr 1fr;
 
-            h1{
+            h1 {
                 font-size: 30px;
             }
 
-            h2{
+            h2 {
                 font-size: 18px;
             }
         }
@@ -234,15 +236,15 @@ body {
         }
     }
 
-    
-    #about{
-        .aboutBox{
 
-            h1{
+    #about {
+        .aboutBox {
+
+            h1 {
                 font-size: 40px;
             }
 
-            h2{
+            h2 {
                 font-size: 25px;
             }
         }
@@ -268,4 +270,16 @@ body {
             font-size: 20px;
         }
     }
+}
+
+
+.scrollAnimation {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.scrollAnimation.show {
+    opacity: 1;
+    transform: translateY(0);
 }
