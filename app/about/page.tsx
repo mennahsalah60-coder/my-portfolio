@@ -111,9 +111,9 @@ export default function About() {
                     </div>
                 </section>
             </ScrollAnimation>
+            <div className='borderMe'></div>
+
             <ScrollAnimation>
-
-
                 <section>
                     <div className='countainer skills'>
                         <div>
