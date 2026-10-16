@@ -89,7 +89,7 @@ export default function Contact() {
 
                         <p>
                             For more info, here&#39;s{" "}
-                            <Link href="/Menna-Hamdy-CV.pdf">
+                            <Link href="https://drive.google.com/file/d/1jPvfa7J_EoNF8XtdJWzm1w4163BD_qnh/view?usp=drive_link">
                                 resume
                             </Link>
                         </p>
