@@ -288,9 +288,10 @@ body {
         }
     }
 
+    /* 
     .certificatesBox h2 {
         font-size: 34px;
-    }
+    } */
 
     .certificateInfo {
         padding: 18px;
@@ -349,6 +350,16 @@ body {
         h2 {
             font-size: 50px;
         }
+    }
+
+    .skills {
+        h2 {
+            font-size: 50px;
+        }
+    }
+
+    .certificatesBox h2 {
+        font-size: 50px !important;
     }
 
 }
