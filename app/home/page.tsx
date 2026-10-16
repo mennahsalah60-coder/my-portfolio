@@ -1,19 +1,15 @@
 'use client'
 
 import './home.css'
-import Navbar from '../components/navbar/page'
 import Image from 'next/image'
 import personalImg from '../../public/meenna portfolio.jpeg'
 import Link from 'next/link'
 import Project from '../components/projects/page'
-import Contact from '../components/contact/page'
 import ScrollAnimation from '../components/ScrollAnimation/Page'
 
 export default function Home() {
   return (
     <>
-      <Navbar />
-
       {/* Hero Section */}
       <ScrollAnimation>
         <section className='me'>
@@ -139,6 +135,10 @@ export default function Home() {
                 real-world projects.
               </p>
 
+
+              <div>
+                <Link href='/about'>MORE ABOUT ME</Link>
+              </div>
             </div>
 
           </div>
@@ -147,14 +147,6 @@ export default function Home() {
 
 
       <div className='borderMe'></div>
-
-
-      {/* Contact Section */}
-      <ScrollAnimation>
-        <section id='contact'>
-          <Contact />
-        </section>
-      </ScrollAnimation>
 
     </>
   )
