@@ -103,12 +103,16 @@ export default function About() {
                         </div>
                     </div>
                 </section>
-
+            </ScrollAnimation>
+            <ScrollAnimation>
                 <section>
                     <div className='countainer mee'>
                         <Image src={photo} alt='menna' />
                     </div>
                 </section>
+            </ScrollAnimation>
+            <ScrollAnimation>
+
 
                 <section>
                     <div className='countainer skills'>
@@ -131,7 +135,8 @@ export default function About() {
                     </div>
                 </section>
                 <div className='borderMe'></div>
-
+            </ScrollAnimation>
+            <ScrollAnimation>
                 <section className="certificates">
                     <div className="countainer certificatesBox">
                         <div>

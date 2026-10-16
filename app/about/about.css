@@ -359,3 +359,15 @@ body {
         max-width: 990px;
     }
 }
+
+
+.scrollAnimation {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.scrollAnimation.show {
+    opacity: 1;
+    transform: translateY(0);
+}
